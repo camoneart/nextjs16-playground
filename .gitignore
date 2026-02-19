@@ -1,0 +1,103 @@
+# === OS (macOS) ===
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# === Editor / IDE (Google Antigravity) ===
+
+# === Security ===
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+.dev.vars
+
+# Private keys & certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.p8
+*.mobileprovision
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Credentials & tokens
+credentials.json
+serviceAccountKey.json
+.gcp-credentials.json
+.aws/
+.azure/
+token.json
+secrets.yaml
+secrets.yml
+*.secret
+
+# SSH
+.ssh/
+
+# GPG
+secring.*
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Language: Node.js ===
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Runtime
+.node_repl_history
+*.pid
+*.seed
+*.pid.lock
+
+# Package manager stores
+.pnpm-store/
+
+# === Framework: Next.js ===
+.next/
+out/
+
+# === Claude Code / AI Tools ===
+
+# Claude Code
+.claude/settings.local.json
+
+# Implementation logs (local only)
+_docs/templates/
